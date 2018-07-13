@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80AD4DCD20F851F600F2AF29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AD4DCC20F851F600F2AF29 /* AppDelegate.m */; };
+		80AD4DD020F851F600F2AF29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AD4DCF20F851F600F2AF29 /* ViewController.m */; };
+		80AD4DD320F851F600F2AF29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80AD4DD120F851F600F2AF29 /* Main.storyboard */; };
+		80AD4DD520F851F800F2AF29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80AD4DD420F851F800F2AF29 /* Assets.xcassets */; };
+		80AD4DD820F851F800F2AF29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80AD4DD620F851F800F2AF29 /* LaunchScreen.storyboard */; };
+		80AD4DDB20F851F800F2AF29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AD4DDA20F851F800F2AF29 /* main.m */; };
+		80AD4DE320F8522000F2AF29 /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AD4DE120F8521F00F2AF29 /* BSBacktraceLogger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80AD4DC820F851F600F2AF29 /* BSBacktraceLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSBacktraceLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AD4DCB20F851F600F2AF29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80AD4DCC20F851F600F2AF29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80AD4DCE20F851F600F2AF29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80AD4DCF20F851F600F2AF29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80AD4DD220F851F600F2AF29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80AD4DD420F851F800F2AF29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80AD4DD720F851F800F2AF29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80AD4DD920F851F800F2AF29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80AD4DDA20F851F800F2AF29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80AD4DE120F8521F00F2AF29 /* BSBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBacktraceLogger.m; sourceTree = "<group>"; };
+		80AD4DE220F8522000F2AF29 /* BSBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBacktraceLogger.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80AD4DC520F851F600F2AF29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80AD4DBF20F851F600F2AF29 = {
+			isa = PBXGroup;
+			children = (
+				80AD4DCA20F851F600F2AF29 /* BSBacktraceLogger */,
+				80AD4DC920F851F600F2AF29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80AD4DC920F851F600F2AF29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80AD4DC820F851F600F2AF29 /* BSBacktraceLogger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80AD4DCA20F851F600F2AF29 /* BSBacktraceLogger */ = {
+			isa = PBXGroup;
+			children = (
+				80AD4DCB20F851F600F2AF29 /* AppDelegate.h */,
+				80AD4DCC20F851F600F2AF29 /* AppDelegate.m */,
+				80AD4DE220F8522000F2AF29 /* BSBacktraceLogger.h */,
+				80AD4DE120F8521F00F2AF29 /* BSBacktraceLogger.m */,
+				80AD4DCE20F851F600F2AF29 /* ViewController.h */,
+				80AD4DCF20F851F600F2AF29 /* ViewController.m */,
+				80AD4DD120F851F600F2AF29 /* Main.storyboard */,
+				80AD4DD420F851F800F2AF29 /* Assets.xcassets */,
+				80AD4DD620F851F800F2AF29 /* LaunchScreen.storyboard */,
+				80AD4DD920F851F800F2AF29 /* Info.plist */,
+				80AD4DDA20F851F800F2AF29 /* main.m */,
+			);
+			path = BSBacktraceLogger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80AD4DC720F851F600F2AF29 /* BSBacktraceLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80AD4DDE20F851F800F2AF29 /* Build configuration list for PBXNativeTarget "BSBacktraceLogger" */;
+			buildPhases = (
+				80AD4DC420F851F600F2AF29 /* Sources */,
+				80AD4DC520F851F600F2AF29 /* Frameworks */,
+				80AD4DC620F851F600F2AF29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSBacktraceLogger;
+			productName = BSBacktraceLogger;
+			productReference = 80AD4DC820F851F600F2AF29 /* BSBacktraceLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80AD4DC020F851F600F2AF29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Chen Nate";
+				TargetAttributes = {
+					80AD4DC720F851F600F2AF29 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 80AD4DC320F851F600F2AF29 /* Build configuration list for PBXProject "BSBacktraceLogger" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80AD4DBF20F851F600F2AF29;
+			productRefGroup = 80AD4DC920F851F600F2AF29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80AD4DC720F851F600F2AF29 /* BSBacktraceLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80AD4DC620F851F600F2AF29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AD4DD820F851F800F2AF29 /* LaunchScreen.storyboard in Resources */,
+				80AD4DD520F851F800F2AF29 /* Assets.xcassets in Resources */,
+				80AD4DD320F851F600F2AF29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80AD4DC420F851F600F2AF29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AD4DD020F851F600F2AF29 /* ViewController.m in Sources */,
+				80AD4DDB20F851F800F2AF29 /* main.m in Sources */,
+				80AD4DCD20F851F600F2AF29 /* AppDelegate.m in Sources */,
+				80AD4DE320F8522000F2AF29 /* BSBacktraceLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80AD4DD120F851F600F2AF29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80AD4DD220F851F600F2AF29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80AD4DD620F851F800F2AF29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80AD4DD720F851F800F2AF29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80AD4DDC20F851F800F2AF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80AD4DDD20F851F800F2AF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80AD4DDF20F851F800F2AF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2DDQW9MZ3;
+				INFOPLIST_FILE = BSBacktraceLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cwq.BSBacktraceLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80AD4DE020F851F800F2AF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2DDQW9MZ3;
+				INFOPLIST_FILE = BSBacktraceLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cwq.BSBacktraceLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80AD4DC320F851F600F2AF29 /* Build configuration list for PBXProject "BSBacktraceLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AD4DDC20F851F800F2AF29 /* Debug */,
+				80AD4DDD20F851F800F2AF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80AD4DDE20F851F800F2AF29 /* Build configuration list for PBXNativeTarget "BSBacktraceLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AD4DDF20F851F800F2AF29 /* Debug */,
+				80AD4DE020F851F800F2AF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80AD4DC020F851F600F2AF29 /* Project object */;
+}
